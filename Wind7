@@ -3,7 +3,7 @@
 apt-get update
 rm -rf win7.qcow2 win7 win7.gz ngrok ngrok.zip ng.sh > /dev/null 2>&1
 echo "Download windows files"
-wget -O win7.gz http://52.221.192.24/w7.qcow2.gz
+wget -O win7.gz https://app.vagrantup.com/thuonghai2711/boxes/WindowsQCOW2/versions/1.0.4/providers/qemu.box
 gunzip win7.gz
 echo "Wait..."
 echo "I m Working Now.."
@@ -54,13 +54,8 @@ enda='\033[0m'
 
 printf """$c$b
  
-██╗     ██╗███╗   ██╗ ██████╗  ██████╗  █████╗ ██╗  ██╗ ██████╗ ███████╗████████╗██╗███╗   ██╗ ██████╗ 
-██║     ██║████╗  ██║██╔════╝ ██╔════╝ ██╔══██╗██║  ██║██╔═══██╗██╔════╝╚══██╔══╝██║████╗  ██║██╔════╝ 
-██║     ██║██╔██╗ ██║██║  ███╗██║  ███╗███████║███████║██║   ██║███████╗   ██║   ██║██╔██╗ ██║██║  ███╗
-██║     ██║██║╚██╗██║██║   ██║██║   ██║██╔══██║██╔══██║██║   ██║╚════██║   ██║   ██║██║╚██╗██║██║   ██║
-███████╗██║██║ ╚████║╚██████╔╝╚██████╔╝██║  ██║██║  ██║╚██████╔╝███████║   ██║   ██║██║ ╚████║╚██████╔╝
-╚══════╝╚═╝╚═╝  ╚═══╝ ╚═════╝  ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝ ╚══════╝   ╚═╝   ╚═╝╚═╝  ╚═══╝ ╚═════╝
-    $r  Support YT Channel-> Aank is ME © 2022 $c https://aank.me/Youtube 
+WELCOME TO MY SERVER 
+  
           
 $endc$enda""";
 sleep 43200
